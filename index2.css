@@ -24,17 +24,18 @@ body{
 .main-nav a{
 	display:inline-block;
 	border-radius: 5px 5px 0px 0px;
-	border-bottom: 10px;
+	border-bottom: 10px solid white;
 	background-color:rgba(255, 255, 255, 0.64);
 	color:black;
 	text-decoration:none;
 	padding: 5px 10px;
-	top:-10px;
+	top:10px;
+	position:relative;
 	transition: top 300ms ease;
 }
 
 .main-nav a:hover{
-	top:5px;
+	top:0px;
 }
 
 .page-content{
